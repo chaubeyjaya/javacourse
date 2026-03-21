@@ -33,13 +33,26 @@
 
 
   //4,10,16,22,28........         
-public class AirthmetcProgression{
+// public class AirthmetcProgression{
+//     public static void main(String[] args) {
+//        int n = 10;
+//        int a = 4,d=6;
+//         for(int i=1; i<=n; i++){
+//         System.out.print(a+" ");
+//         a+=d;
+//         }
+//     }
+// }
+
+//99 95 91 87 83 79 75 71 67 63 59 55 51 47 43 39 35 31 27 23 19 15 11 7 3
+public class AirthmetcProgression {
     public static void main(String[] args) {
-       int n = 10;
-       int a = 4,d=6;
-        for(int i=1; i<=n; i++){
-        System.out.print(a+" ");
-        a+=d;
+       
+        int a = 99, d = -4;
+
+        for (int i = 1; a > 0; i++) {
+            System.out.print(a + " ");
+            a += d;
         }
     }
 }
