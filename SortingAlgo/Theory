@@ -1,0 +1,14 @@
+before sorting first we chechk array are sorted or not 
+bubble sort optimise
+time complexity
+best case=O(n)
+Avg case=O(n^2)
+worst case = O(n^2)
+
+
+
+
+time complexity of selectionSort
+best case=O(n^2)
+Avg case=O(n^2)
+worst case = O(n^2)
