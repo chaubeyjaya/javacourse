@@ -12,3 +12,13 @@ time complexity of selectionSort
 best case=O(n^2)
 Avg case=O(n^2)
 worst case = O(n^2)
+
+
+
+
+
+
+
+stability of bubble and selection sort
+bublle sort are stable  agr duplictae element hai to wo ane order ko maintain rkhna hai jo aage element rhega wo aage hi rhega 
+in selection sort order agge picche ho jata hai
