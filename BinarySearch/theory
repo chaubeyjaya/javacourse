@@ -1,0 +1,9 @@
+it apply only on sorted array
+why we use it.... because it imporve the time complexity
+if n hai to log n
+
+if mid>target go to eft
+if mid <target ho to right 
+if mid= target  elelmnet found 
+time cocmplexity
+operation time: log n
