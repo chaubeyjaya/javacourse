@@ -1,7 +1,7 @@
 
 /*
 take possitve integer input and print
-riya ifnumber is divisible by 5
+riya if number is divisible by 5
 jiya if number divisible by 3
 jaya if number is divisible by 5 Aand 3 both 
 jagu if number is not divisible by 3,5

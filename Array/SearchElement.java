@@ -6,7 +6,6 @@ public class SearchElement{
         boolean found=false;
         for(int i=0;i<arr.length;i++){
             if(arr[i]==x){
-
                 System.out.println(arr[i]);
                 found =true;
                 break;

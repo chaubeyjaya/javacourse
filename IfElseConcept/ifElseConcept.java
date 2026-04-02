@@ -1,7 +1,7 @@
 public class ifElseConcept{
     public static void main(String[] args) {
         
-        //if else use to chrck whether this condition true or false 
+        //if else use to check whether this condition true or false 
         //if condition is true then run if part else run else part of code
 
 //example 1
