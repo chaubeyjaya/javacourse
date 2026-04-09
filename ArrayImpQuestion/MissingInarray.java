@@ -1,6 +1,6 @@
 /**
  arr[]=[1,2,3,5] now array ki size agar 5 hai to isme 5 element honi chahiye so isme 4 mising hai size of array n-1
- sum of 1 to n = n+(n+1)/2 e.g if n = 8  8+9/2
+ sum of 1 to n = n*(n+1)/2 e.g if n = 8  8+9/2
  */
 
 

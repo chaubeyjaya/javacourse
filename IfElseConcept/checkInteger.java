@@ -1,4 +1,4 @@
-//take real number nad check it integer or not for example if number is 2.3 so it is not integr if 2 then it is integr
+//take real number and check it integer or not for example if number is 2.3 so it is not integr if 2 then it is integr
 
 public class checkInteger{
     public static void main(String[] args) {

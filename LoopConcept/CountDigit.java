@@ -13,9 +13,9 @@
 
 /**
  * concept 
- jitni bar hm kissi number ko ten se divide krenge utne hi digit k awo number hoga 
+ jitni bar hm kissi number ko ten se divide krenge utne hi digit ka wo number hoga 
  ex:
- 56132    ek bar 10 se divide kiya to 
+ 56132    ek bar 10 se divide kiya to 2 hata
  5613
  561
  56
@@ -29,8 +29,8 @@
 //      int count=0;
 //      while(n!=0){
 //       n=n/10;
-//       count++;      //count will check kitni baar loop chl rha 
-
+//       count++;     count will check kitni baar loop chl rha 
+ //
 //      }
 //      System.out.println(count);
 //     }

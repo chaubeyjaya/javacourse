@@ -36,6 +36,8 @@ arr[2]=14;
 arr[3]=15;
 arr[4]=16;
 
-
+for(int i=0;i<arr.length;i++){
+    System.out.println(arr[i]);
+}
     }
 }
