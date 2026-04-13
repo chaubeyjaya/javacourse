@@ -9,7 +9,8 @@ public class countDigit{
         //string to number
         String s="12345";
         int n=Integer.parseInt(s);
-        System.out.println(n+1);
+        System.out.println(s+1);
+              System.out.println(n+1);
 
     }
 }

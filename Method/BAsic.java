@@ -1,5 +1,5 @@
 
-//function we use when we have to minimize our code and the code which require to write every tme so we maek it in function adn just call it when it need
+//function we use when we have to minimize our code and the code which require to write every time so we make it in function and just call it when it need
 /**
  Built in method that already availbe we have to just call it and use it 
  */
