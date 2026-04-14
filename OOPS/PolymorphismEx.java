@@ -2,6 +2,11 @@
 /**
  * ek name multi kaam ;
  * splymorphism =many form
+ * 
+ * Two main types:
+
+Method Overloading → Compile-time
+Method Overriding → Run-time
  */
 public class PolymorphismEx {
 

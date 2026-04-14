@@ -1,5 +1,5 @@
 /**
- final  varibale never haneg now;
+ final  varibale never chaneg now;
  final will have the box with all varibale
 
  static variable means sharable

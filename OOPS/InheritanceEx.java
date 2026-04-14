@@ -34,6 +34,9 @@ public class Main {
 💡 Explanation:
 Dog inherits Animal
 Can use both eat() and bark()
+
+
+
 🔹 2. Multilevel Inheritance
 
 👉 Chain of inheritance (Grandparent → Parent → Child)
