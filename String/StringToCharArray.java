@@ -3,7 +3,7 @@ public class StringToCharArray{
         String s="jaya";
         char[]ch = s.toCharArray();
     for(char ele:ch){
-        System.out.println(ele);
+        System.out.print(ele +" ");
     }
     }
 }

@@ -1,0 +1,20 @@
+jvm sabse small
+jre bich mai
+jdk sabse bdda
+
+
+jdk:Java develpoment kit
+
+its a software development kit require to develop java application 
+include the jRE ,an loader/interpreter(java),a compiler(javac) and other tool needed for java development
+JDK is superset of jRE(java run time enviroment
+)
+
+JRE 
+it is part of JDK ,but it availabe separetly
+provide library and other component that require to run appliacation
+does not have tool and utilies for developer like compiler
+
+JVM:java virtual machine
+it is part of JRE and resposible for executing the bytecode
+ensure java write once run anywhere capability
