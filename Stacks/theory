@@ -1,0 +1,13 @@
+stack of book 
+FILO=first in last out
+in stack we can remove only topmost element and add also at topmost 
+syntax:
+Stack <nteger> st = new Stack<>()
+st.push(30);
+st.peak();  //it will print the top elelemt
+st.pop();
+
+
+
+stack size jadahogya to overflow hoga
+aur stack ki size km ho rhi to underflow

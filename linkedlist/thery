@@ -1,0 +1,16 @@
+in linked list there is two part one store the real data 
+and other are address of next one 
+
+node has two part ek vale store krta ahai 
+aur second address of next node 
+and tail means last node will store null vale in address section of next ode
+first node is head and last node is tail
+
+
+no1 drawback of linklist:
+in  linked list if we want to find the data at the perticular index then we have 
+to traverse entire list from head we not get immediately
+
+
+limitation of linkedlist
+
