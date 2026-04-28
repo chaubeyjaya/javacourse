@@ -4,7 +4,7 @@ class Node {
 
     Node(int val) {
         this.val = val;
-        this.next = null;
+      
     }
 }
 

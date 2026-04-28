@@ -1,7 +1,9 @@
 
 class Node {
-   int val;
+
+    int val;
     Node next;
+
     Node(int val) {
         this.val = val;
     }
@@ -79,45 +81,47 @@ class Linkedlist {
 
     }
 
-
 //insert the value at particular index;  t.next=temp.next  and temp.next=t;
+    void insert(int val, int idx) {
+        if (idx <= 0 || idx > size) {
+            System.out.println("Invalid index"); 
+        }else if (idx == 0) {
+            addAtHead(val); 
+        }else if (idx == size) {
+            addAtTail(val); 
+        }else {
+            Node temp = head;
+            for (int i = 1; i <= idx - 1; i++) {
+                temp = temp.next;
+            }
+            Node t = new Node(val);
+            t.next = temp.next;
+            temp.next = t;
+            size++;
 
-void insert(int val,int idx){
-    if(idx<=0 || idx>size) System.out.println("Invalid index");
-    else if(idx==0) addAtHead(val);
-    else if(idx==size) addAtTail(val);
-    else{
-        Node temp=head;
-        for(int i= 1;i<=idx-1;i++){
-            temp=temp.next;
         }
-        Node t = new Node(val);
-        t.next=temp.next;
-        temp.next=t;
-        size++;
-
     }
-}
-
 
 //delete the data from perticular next
-void deleteidx(int idx){
-    if(idx<0 || idx>=size){
-        System.out.println("Invalid index");
-        return;
+    void deleteidx(int idx) {
+        if (idx < 0 || idx >= size) {
+            System.out.println("Invalid index");
+            return;
+        }
+        if (idx == 0) {
+            deleteAtHead();
+            return;
+        }
+        Node temp = head;
+        for (int i = 1; i <= idx-1; i++) {//this loop for moving to the ek piche wale index pe jisko dlt krna hai
+            temp = temp.next;
+        }
+        temp.next = temp.next.next; //deleet
+        if (idx == size - 1) {//we are deleting the tail
+            tail = temp;
+        }
+        size--;
     }
-    if(idx==0){
-        deleteAtHead();
-        return;
-    }
-Node temp = head;
-for(int i=1;i<=idx;i++){
-    temp = temp.next;
-}
-temp.next = temp.next.next; //deleet
-if(idx == size-1) tail = temp;
-size--;
-}
 
 }
 
@@ -136,8 +140,8 @@ public class LLDatastructure {
         ll.display();
         System.out.println(ll.size);
         System.out.println(ll.search(20));
-        ll.insert(90,2);
+        ll.insert(90, 2);
         ll.deleteidx(4);
-         ll.display();
+        ll.display();
     }
 }

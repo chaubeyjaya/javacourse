@@ -6,7 +6,7 @@ public class traverseinStack{
         Stack <Integer> st = new Stack<>();
         st.push(10);st.push(20);st.push(30);st.push(40);st.push(50);
         System.out.println(st);
-        System.out.println(st.peek());
+        System.out.println(st.peek()); //50 at top  kyuki ye last mai enter huwa
         Stack <Integer> st1 = new Stack<>();
         System.out.println(st1);
         while(st.size()>0){
