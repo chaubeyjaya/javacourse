@@ -5,7 +5,7 @@ public class ProfitOrLoss{
          if(sp>cp){
             int profit=sp-cp;
             System.out.println("It is profit of " +profit);
-            int pp=(profit*100)/cp;
+            int pp=(profit*100)/cp;  //loss percentage = loss*100/cp
             System.out.println(pp);
          }else{
             //same as for loss precentage

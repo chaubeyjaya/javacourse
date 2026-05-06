@@ -1,7 +1,7 @@
 
 /**
  * ek name multi kaam ;
- * splymorphism =many form
+ * plymorphism =many form
  * 
  * Two main types:
 

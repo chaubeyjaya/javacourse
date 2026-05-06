@@ -49,3 +49,18 @@ public class privateKeyword {
         //  s.rno=  here it show error because it doent allow to changes
     }
 }
+
+
+/**
+ * 3. private (Access modifier)
+
+👉 Controls visibility
+
+✔ Key points:
+Accessible only within same class
+Not visible outside class
+Example:
+class Test {
+    private int x = 10;
+}
+ */

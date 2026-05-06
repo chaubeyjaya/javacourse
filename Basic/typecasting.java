@@ -1,6 +1,6 @@
 /**
  *(automatic jab bhi aap chote datatype ko bde mai convert krenge to  to wo easily hojayega ) implicit type casting ::::byte--short--int--long--float--double
- * (forcefully we conver th large datatype in small dattype )explixit type casting::::::opotiote of thid arraw start from last 
+ * (forcefully we conver th large datatype in small dattype (that measn we try to fit large thing in small com=natiner))explixit type casting::::::opotiote of thid arraw start from last 
  */
 
 public class typecasting{

@@ -1,5 +1,5 @@
 /**
- * encapsulation is process of use=ing private m
+ * encapsulation is process of useing private m
  * 
  * means make the the thing hidden
  * 
