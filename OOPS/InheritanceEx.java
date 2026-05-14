@@ -108,6 +108,10 @@ public class Main {
 💡 Explanation:
 Both Dog and Cat inherit from Animal
 
+
+
+
+
 🔹 4. Multiple Inheritance (NOT supported with classes ❌)
 
 👉 One child inheriting multiple parents

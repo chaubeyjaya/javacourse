@@ -40,6 +40,10 @@ Animal is abstract → cannot create object
 sound() must be implemented by child class
 eat() is already defined → reused directly
 Dog provides implementation of sound()
+
+
+
+
 🔷 2. Interface in Java
 
 👉 An interface is a blueprint of a class:

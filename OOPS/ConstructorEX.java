@@ -1,4 +1,4 @@
-//imp note if we create teh parameterized constructor to normal bina parametrized ke jaise phle object bna rhe thay wo eror dega esliye hm phle default constuctor bnad enge
+//imp note if we create the parameterized constructor to normal bina parametrized ke jaise phle object bna rhe thay wo eror dega esliye hm phle default constuctor bnad enge
 // public class ConstructorEX {
 
 //     public static class Student {
