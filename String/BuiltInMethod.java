@@ -10,6 +10,11 @@ public class BuiltInMethod{
         // String s2="jaymu";
         // System.out.println(s1.concat(s2));
         // System.out.println(s1.compareTo(s2));
+  String s = "Java Python C";
+String[]arr = s.split(" ");
+for(String x:arr ){
+    System.out.println(x);
+}
 
 
 
