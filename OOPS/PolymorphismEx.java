@@ -50,3 +50,28 @@ public class PolymorphismEx {
 
     }
 }
+
+
+/**method overriding
+ * class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        super.sound(); // Parent class method call both data will print if we remove this so only child wala print hoga
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound();
+    }
+}
+ */
+
+
