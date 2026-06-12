@@ -21,3 +21,15 @@ System.out.println("jaya"+10+20);//we move left to right so first string will ad
 
     }
 }
+  
+//   String str = "aaabbccddff";
+
+//         String result = "";
+
+//         for (int i = 0; i < str.length(); i++) {
+//             if (i == 0 || str.charAt(i) != str.charAt(i - 1)) {
+//                 result += str.charAt(i);
+//             }
+//         }
+
+//         System.out.println(result);
