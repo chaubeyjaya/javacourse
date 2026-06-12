@@ -70,11 +70,116 @@ final class A { }
 ✔ Key points:
 Shared by all objects
 Can be accessed without creating object
-Memory efficient
-Example:
-class Test {
-    static int count = 0;
+
+
+
+
+
+
+imp to understand the static keywod
+
+
+Why use static?
+
+Suppose you create 100 students.
+...................................................
+Without static:
+
+class Student {
+    int collegeCode = 101;
 }
 
-System.out.println(Test.count); // no object needed
+Every object gets its own copy of collegeCode. many object have many copy
+
+
+...............................................
+With static:
+
+class Student {
+    static int collegeCode = 101;
+}
+
+Only one copy of collegeCode is created and shared by all objects.
+
+Example:
+
+class Student {
+    static int collegeCode = 101;
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        Student s2 = new Student();
+
+        System.out.println(Student.collegeCode);
+    }
+}
+
+
+
+that means  multiple object has same college id 
+Sure. Think of it this way.
+
+Without static
+class Student {
+    int collegeCode = 101;
+}
+Student s1 = new Student();
+Student s2 = new Student();
+Student s3 = new Student();
+
+Memory looks like:
+
+s1 -> collegeCode = 101
+s2 -> collegeCode = 101
+s3 -> collegeCode = 101
+
+Each object has its own separate copy of collegeCode.
+
+If you change one:
+
+s1.collegeCode = 200;
+
+Then:
+
+s1 -> collegeCode = 200
+s2 -> collegeCode = 101
+s3 -> collegeCode = 101
+
+Only s1 changes.
+................................................
+With static
+class Student {
+    static int collegeCode = 101;
+}
+Student s1 = new Student();
+Student s2 = new Student();
+Student s3 = new Student();
+
+Student Class
+    |
+    --> collegeCode = 101
+
+All objects use the same variable.
+
+s1 ----|
+s2 ----|----> collegeCode = 101
+s3 ----|
+
+If you do:
+
+Student.collegeCode = 200;
+
+or
+
+s1.collegeCode = 200;
+
+Then:
+
+s1 ----|
+s2 ----|----> collegeCode = 200
+s3 ----|
+
+Now everyone sees 200 because there is only one copy.
  */
