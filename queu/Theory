@@ -1,0 +1,15 @@
+in queu FiFo rule will follow first in first out 
+front                   rare
+-------------------------
+10  20  30  40  50
+-------------------------
+
+always element add from rear 
+and elemnt peek and remove from front
+
+it has method add() ,remove() , peek() ,size()
+
+
+
+
+
