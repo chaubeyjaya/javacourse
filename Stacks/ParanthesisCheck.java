@@ -12,7 +12,7 @@
  * 
  * sab check hone ke badd last wala round bracket ka opening push hoga in stack
  * 
- * aur stack empty hon achahiye 
+ * aur stack empty hona chahiye 
  * time complexity O(n)
  * agar barcket odd number kr hai to retuen false
  * 

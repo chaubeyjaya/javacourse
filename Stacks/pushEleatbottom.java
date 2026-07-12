@@ -12,7 +12,7 @@ public class pushEleatbottom{
         int ele=50;
         System.out.println(st);
 pushAtbottom(st, ele);
-
+    System.out.print(st+" ");
     }
     static void pushAtbottom(Stack<Integer>st ,int ele){
         if(st.size()==0){
@@ -22,5 +22,7 @@ pushAtbottom(st, ele);
   int top = st.pop();
   pushAtbottom(st, ele);//recursevly
   st.push(top);
+ 
     }
+ 
 }

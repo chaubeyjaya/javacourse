@@ -16,7 +16,7 @@
 //         q.add(40);
 //         q.add(50);
 
-//         //addq.add(60,30)
+//         //add q.add(60,30)
 //         int idx = 3;
 //        // three element remove and add
 //           for(int i = 0;i<idx;i++){
